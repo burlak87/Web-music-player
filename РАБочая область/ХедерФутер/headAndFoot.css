@@ -1,0 +1,196 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 60px;
+    padding: 0px 20px;
+}
+
+header > p {
+    font-size: 48px;
+}
+
+header > nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+
+header > nav > a {
+    font-size: 24px;
+    color: #fff;
+}
+
+header > nav > button {
+    font-size: 24px;
+    background-color: black;
+    border: none;
+}
+
+header > nav > button:last-child {
+    background-color: white;
+    border-radius: 100px;
+    width: 149px;
+    height: 34px;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 550px;
+}
+
+.firstFooterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1036px;
+    height: 471px;
+    text-align: center;
+}
+
+.firstFooterContainer > h5,
+.footerInfoBox > h6 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.firstFooterContainer > section:first-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.footerInfoLinkBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footerLinkSect {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    height: 160px;
+    width: 513px;
+}
+
+.footerLinkBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.footerLinkBlock > p {
+    font-size: 14px;
+}
+
+.firstFooterContainer > section:last-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}  
+
+.firstFooterContainer > section:last-of-type > p {
+    font-size: 20px;
+}
+
+.footerInfoTextBox {
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footerInfoTextBox > p {
+    font-size: 16px;
+    text-align: start;
+}
+
+.textBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.textBlock > p {
+    font-size: 16px;
+    text-align: start;
+}
+
+.secondFooterContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 470px;
+    width: 549px;
+}
+
+.secondFooterContainer > h5 {
+    font-size: 24px;
+    margin-bottom: 26px;
+}
+
+.secondFooterContainer > section {
+    display: grid;
+    grid-template-rows: 15% 15% 40% 30%;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.footerInputBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footerInputOne {
+    width: 145px;
+    margin: 10px;
+}
+
+.footerInputTwo {
+    width: 240px;
+    margin: 12px;
+}
+
+.footerInputThree {
+    width: 525px;
+    margin-top: 116px;
+    margin-bottom: 70px;
+}
+
+.footerInputOne,
+.footerInputTwo,
+.footerInputThree {
+    background-color: black;
+    color: white;
+    border: none;
+    border-bottom: 2px solid white;
+}
