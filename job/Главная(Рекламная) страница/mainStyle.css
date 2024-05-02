@@ -1,0 +1,430 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 16px;
+    font-family: Comfortaa, 'Arial Narrow Bold', sans-serif ;
+}
+
+/* начало модалки */
+
+select {
+    margin-top: 14px; 
+    color: black;
+}
+
+option {
+    color: black;
+}
+
+.modalAppSection {
+    display: none;
+    position: fixed;
+    align-self: center;
+    z-index: 1;
+    width: 50%;
+    height: 50%;
+    background-color: #333333;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    /* overflow-y: scroll; */
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.modalAppContent {
+    display: none;
+    width: 95%;
+    height: 95%;
+    align-items: center;
+    padding: 20px 0px 100px 0px;
+    flex-direction: column;
+    color: white;
+}
+#regButtonModal {
+    transition: .2s;
+    font-size: 24px;
+    background-color: white;
+    border-radius: 100px;
+    width: 149px;
+    height: 34px;
+    color: black;
+    border: none;
+}
+form > input {
+    background-color: #cecece;
+}
+#loginErrorEmpty {
+    background-color: darkred;
+    color: white;
+    font-size: 14px;
+    padding: 5px;
+    border: none;
+    top: 5px;
+}
+#authButton {
+    background: none;
+    color: white;
+    border: none;
+    width: fit-content;
+    padding: 5px;
+}
+#accordeonRegContent > h1 {
+color: white;
+text-align: center;
+padding: 10px;
+font-size: 24px;
+}
+#accordeonRegContent > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#accordeonRegContent > form > input {
+    padding: 10px;
+    width: fit-content;
+}
+#accordeonRegContent > form > input {
+    margin-top: 10px;
+}
+#accordeonRegContent > form > button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #012326;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+
+/* конец модалки */
+
+body {
+    background-color: #383737;
+}
+
+#firstContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 840px;
+    background-image: url(../assets/IMAGES/Картинки-главная/firstBlock/1.jpg);
+}
+
+#firstContainer > h1 {
+    text-align: center;
+    font-size: 64px;
+}
+
+#opportunitiesContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 3220px;
+    gap: 80px;
+    margin-bottom: 60px;
+}
+
+#opportunitiesContainer > h2 {
+    font-size: 64px;
+    text-align: center;
+}
+
+#opportunities {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1360px;
+}
+
+.opportunitiesAll {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+    text-align: center;
+    width: 600px;
+    height: 745px;
+    background-color: #026873;
+    border-radius: 15px;
+    padding: 0 60px;
+}
+
+.opportunitiesRight {
+    transform: translateX(380px);
+}
+
+.opportunitiesLeft {
+    transform: translateX(-380px);
+}
+
+.opportunitiesAll > button {
+    margin-bottom: 25px;
+}
+
+.opportunitiesAll > h3 {
+    margin: 22px 0;
+    font-size: 24px;
+    text-align: justify;
+}
+
+.opportunitiesAll > span {
+    font-size: 24px;
+    text-align: justify;
+    height: 295px;
+}
+
+#about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 65px;
+    background-image: url(../assets/IMAGES/Картинки-главная/About/фон-5\ 1.png);
+}
+
+#about > h3 {
+    margin: 45px 0;
+    margin-top: 110px;
+    font-size: 40px;
+}
+
+#about > section {
+    margin-bottom: 115px;
+}
+
+#aboutOne {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    width: 1260px;
+}
+
+#aboutOne > p {
+    background-color: #730202;
+    border-top-left-radius: 75px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    width: 410px;
+    height: 295px;
+}
+
+#aboutOne > img {
+    border-top-left-radius: 75px;
+    border-top-right-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+
+#aboutTwo {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    width: 1260px;
+}
+
+#aboutTwo > p {
+    background-color: #730202;
+    border-bottom-right-radius: 75px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    text-align: center;
+    width: 410px;
+    height: 295px;
+}
+
+#aboutTwo > img {
+    border-top-left-radius: 75px;
+    border-bottom-left-radius: 75px;
+    border-bottom-right-radius: 75px;
+}
+
+#newSongs {
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.newSongsBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 1040px;
+}
+
+.newSongsBlock:first-child {
+    gap: 150px
+}
+
+.newSongsBlock:last-child {
+    gap: 60px;
+}
+
+#nsbArtFirst {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    width: 490px;
+}
+
+#nsbArtFirst > section > h3 {
+    font-size: 40px;
+    padding-bottom: 6px;
+}
+
+#nsbArtFirst > section > p {
+    font-size: 32px;
+    padding-top: 6px;
+}
+
+#nsbArtFirst > section:last-of-type {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.artSongs {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    height: 600px;
+}
+
+.artSongs > section:first-of-type {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.artSongs > section:last-of-type {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+#mailing {
+    background-color: #012326;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 58px;
+    border-radius: 50px;
+    width: 1260px;
+    height: 182px;
+    margin: 25px 330px;
+}
+
+#mailing > h3 {
+    font-size: 24px;
+    margin: 50px;
+}
+
+#mailing > input {
+    color: black;
+    width: 522px;
+    height: 55px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#popularAlbums {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+#popularAlbums > section {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: 1260px;
+}
+
+.cardPopularAlbum {
+    width: 380px;
+    height: 570px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.cardPopularAlbum > h4,
+.cardPopularAlbum > span,
+.cardPopularAlbum > p {
+    font-size: 20px;
+    margin: 10px 50px;
+}
+
+.cardPopularAlbum > img {
+    margin: 0 50px;
+}
+
+.cardPopularAlbum > ol {
+    font-size: 16px;
+    margin: 0 64px;
+    margin-top: 8px;
+    text-align: start;
+}
+
+.cardPopularAlbum > ol > li {
+    text-decoration: none;
+}
+
+#listeningСard {
+    width: 380px;
+    height: 570px;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #070C73;
+    color: white;
+}
+
+#titleListeningCard {
+    font-size: 40px;
+    padding: 32px 30px;
+    margin-top: 120px;
+}
+
+#buttonListeningCard {
+    margin: 0 30px;
+    margin-bottom: 140px;
+}
+
+#iconLink {
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 40px;
+    padding: 30px;
+}
+
+.firstTypeCardPA {
+    background-color: #026873;
+}
+
+.secondTypeCardPA {
+    background-color: #070C73;
+}

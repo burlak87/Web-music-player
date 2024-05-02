@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylePlayer.css">
+    <link rel="stylesheet" href="../ХедерФутер/headAndFoot.css">
+    <link rel="stylesheet" href="../Кнопки/btn.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+    <header>
+        <p>S-Music</p>
+        <nav>
+            <a href="../Главная(Рекламная) страница/main.html">Главная</a>
+            <a href="../Магазин/shop.html">Товары</a>
+            <a href="#">Жанры</a>
+            <button>Профиль</button>
+        </nav>
+    </header>
+    <main>
+        <article id="firstSwiper">
+            <section id="firstTitle">
+                <h1>Популярные композиции</h1>    
+            </section>
+            <section class="slider">
+                <ul>
+                    <li><img src="../assets/IMAGES/Картинки-плеер/swiper-images/first/Lil Skies — «Out Your Body Music»(8).jpg" alt="image one" class="imgSwiperOne" width="600" height="600"/></li>
+                    <li><img src="../assets/IMAGES/Картинки-плеер/swiper-images/first/Gesaffelstein — «Gamma»(9).jpg" alt="image two" class="imgSwiperOne" width="600" height="600"/></li>
+                    <li><img src="../assets/IMAGES/Картинки-плеер/swiper-images/first/Roc Marciano — «Marciology»(5).jpg" alt="image three" class="imgSwiperOne" width="600" height="600"/></li>
+                    <li><img src="../assets/IMAGES/Картинки-плеер/swiper-images/first/Ski Mask the Slump God — «Shibuya»(13).jpg" alt="image four" class="imgSwiperOne" width="600" height="600"/></li>
+                </ul>
+            </section>
+            <section class="pagination-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </section>
+            <section id="btnListen">
+                <button class="btnDarkGreen vThree" onclick="document.location='#player'">Слушать</button>
+            </section>
+        </article>
+        
+        <article id="secondSwiper">
+            <section id="carouselText">
+                <article>
+                    <h2>Примеры работ, которые волнуют слушателей </h2>
+                    <section>
+                        <article id="sectImage">
+                            <p>Альбомы</p>
+                            <section id="image"></section>
+                        </article>
+                        <article id="menu">
+                            <section id="current-option">
+                                <span id="current-option-text1" data-previous-text="" data-next-text=""></span>
+                                <span id="current-option-text2" data-previous-text="" data-next-text=""></span>
+                            </section>
+                            <section id="btnArt">
+                                <button id="previous-option"></button>
+                                <button id="next-option"></button>
+                            </section>
+                        </article>
+                    </section>
+                </article>
+            </section>
+        </article>
+        <article id="trackCompilation">
+            <h2>Новые альбомы</h2>
+            <section>
+                <article class="compilationCardOne">
+                    <img src="../assets/IMAGES/Картинки-плеер/other-images/XMXlxauPcEM 1.png" alt="" width="140" height="140">
+                    <p>PSYCHEDELIC LOVE</p>
+                    <p>Pepel Nahudi</p>
+                    <span>Треков 6<br>05.04.2024</span>
+                </article>
+                <article class="compilationCardTwo">
+                    <img src="../assets/IMAGES/Картинки-плеер/other-images/4W63W3mNK0A 1.png" alt="" width="140" height="140">
+                    <p>Сага об Атлантиде 2</p>
+                    <p>ushira</p>
+                    <span>Треков 6<br>05.03.2024</span>
+                </article>
+                <article class="compilationCardOne">
+                    <img src="../assets/IMAGES/Картинки-плеер/other-images/альбом-1 2.png" alt="" width="140" height="140">
+                    <p>Narrative</p>
+                    <p>Miyagi & Эндшпиль</p>
+                    <span>Треков 9<br>12.01.2024</span>
+                </article>
+                <article class="compilationCardTwo">
+                    <img src="../assets/IMAGES/Картинки-плеер/other-images/Lil Skies — «Out Your Body Music»(8) 4.png" alt="" width="140" height="140">
+                    <p>Out Your Body Music</p>
+                    <p>Lil Skies</p>
+                    <span>Треков 8<br>29.03.2024</span>
+                </article>
+                <article class="compilationCardOne">
+                    <img src="../assets/IMAGES/Картинки-плеер/other-images/Roc Marciano — «Marciology»(5) 3.png" alt="" width="140" height="140">
+                    <p>Marciology</p>
+                    <p>Roc Marciano</p>
+                    <span>Треков 13<br>29.03.2024</span>
+                </article>
+                <article class="compilationCardTwo">
+                    <img src="../assets/IMAGES/Картинки-плеер/other-images/Beyoncé — «COWBOY CARTER»(1) 3.png" alt="" width="140" height="140">
+                    <p>COWBOY CARTER</p>
+                    <p>Beyoncé</p>
+                    <span>Треков 27<br>29.03.2024</span>
+                </article>
+            </section>
+        </article>
+        <article id="thirdSwiper">
+            <section id="carouselTextSongs">
+                <article>
+                    <h2>Примеры работ, которые волнуют слушателей </h2>
+                    <section>
+                        <article id="sectImageSongs">
+                            <p>Синглы</p>
+                            <section id="imageSongs"></section>
+                        </article>
+                        <article id="menuSongs">
+                            <section id="current-optionSongs">
+                                <span id="current-option-text1Songs" data-previous-text="" data-next-text=""></span>
+                                <span id="current-option-text2Songs" data-previous-text="" data-next-text=""></span>
+                            </section>
+                            <section id="btnArtSongs">
+                                <button id="previous-optionSongs"></button>
+                                <button id="next-optionSongs"></button>
+                            </section>
+                        </article>
+                    </section>
+                </article>
+            </section>
+        </article>
+        <article id="player">
+            <section class="music-player">
+                <article class="firstContainer">
+                  <img id="song-image" class="imgTrack" src="Lil Skies — «Out Your Body Music»(8).jpg" alt="" width="180" height="180">
+                </article>
+                <article class="secondContsiner">
+                  <section class="boxOne">
+                    <article class="song-details">
+                      <p id="song-name">Make Me Move</p>
+                      <p id="song-artist">Culture Code</p>
+                    </article>
+                  </section>
+                  <section class="boxTwo">
+                    <article class="time-container">
+                      <audio id="audio" preload="metadata"></audio>
+                      <span id="current-time">0:00</span>
+                      <section id="progress-bar">
+                        <article id="current-progress"></article>
+                      </section>
+                      <span id="max-duration">0:00</span>
+                    </article>
+                    <article class="player-options">
+                      <button id="shuffle"><i class="fa-solid fa-shuffle"></i></button>
+                      <button id="prev"><i class="fa-solid fa-backward-step"></i></button>
+                      <button id="play"><i class="fa-solid fa-play"></i></button>
+                      <button id="pause" class="hide"><i class="fa-solid fa-pause"></i></button>
+                      <button id="next"><i class="fa-solid fa-forward-step"></i></button>
+                      <button id="repeat"><i class="fa-solid fa-repeat"></i></button>
+                    </article>
+                  </section>
+                </article>
+            </section>
+        </article>
+        <article id="songsContainer">
+            <section id="songsBox">
+                <article class="songsBlock blue">
+                    <img src="../assets/IMAGES/Картинки-плеер/lastblock/rammstein.jpg" alt="#" width="110" height="110">
+                    <section class="songsBlockText">
+                        <p>RAMMSTEIN</p>
+                        <span>Radio</span>
+                    </section>
+                    <button class="vSeven btnGreen">Прослушать</button>
+                </article>
+
+                <article class="songsBlock green">
+                    <img src="../assets/IMAGES/Картинки-плеер/lastblock/rammstein.jpg" alt="#" width="110" height="110">
+                    <section class="songsBlockText">
+                        <p>RAMMSTEIN</p>
+                        <span>Tattoo</span>
+                    </section>
+                    <button class="vSeven btnBlue">Прослушать</button>
+                </article>
+
+                <article class="songsBlock blue">
+                    <img src="../assets/IMAGES/Картинки-плеер/lastblock/Motionless In White.jpg" alt="#" width="110" height="110">
+                    <section class="songsBlockText">
+                        <p>Motionless In White</p>
+                        <span>Devil's Night</span>
+                    </section>
+                    <button class="vSeven btnGreen">Прослушать</button>
+                </article>
+
+                <article class="songsBlock green">
+                    <img src="../assets/IMAGES/Картинки-плеер/lastblock/Motionless In White.jpg" alt="#" width="110" height="110">
+                    <section class="songsBlockText">
+                        <p>Motionless In White</p>
+                        <span>Sinematic</span>
+                    </section>
+                    <button class="vSeven btnBlue">Прослушать</button>
+                </article>
+
+                <article class="songsBlock blue">
+                    <img src="../assets/IMAGES/Картинки-плеер/lastblock/Motionless In White.jpg" alt="#" width="110" height="110">
+                    <section class="songsBlockText">
+                        <p>Motionless In White</p>
+                        <span>Underdog</span>
+                    </section>
+                    <button class="vSeven btnGreen">Прослушать</button>
+                </article>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <article class="firstFooterContainer">
+            <h5>Информация о разработчиках и владельцах платформы</h5>
+            <section>
+                <article class="footerInfoLinkBox">
+                    <h6>Контактные данные разработчика</h6>
+                    <section class="footerLinkSect">
+                        <article class="footerLinkBlock">
+                            <img src="../assets/IMAGES/Картинки-хедерфутер/icon/GMAIL.png" alt="" width="80" height="80">
+                            <p>Burlakovfedor87<br>@mail.com</p>
+                        </article>
+                        <article class="footerLinkBlock">
+                            <img src="../assets/IMAGES/Картинки-хедерфутер/icon/VK.png" alt="" width="80" height="80">
+                            <p>VK</p>
+                        </article>
+                        <article class="footerLinkBlock">
+                            <img src="../assets/IMAGES/Картинки-хедерфутер/icon/Phone.png" alt="" width="80" height="80">
+                            <p>+7-951-725-92-02</p>
+                        </article>
+                    </section>
+                </article>
+                <article class="footerInfoBox">
+                    <h6>Социальные сети администратора</h6>
+                    <section id="footerLinkSectTwo" class="footerLinkSect">
+                        <article class="footerLinkBlock">
+                            <img src="../assets/IMAGES/Картинки-хедерфутер/icon/TG.png" alt="" width="80" height="80">
+                            <p>TG</p>
+                        </article>
+                        <article class="footerLinkBlock">
+                            <img src="../assets/IMAGES/Картинки-хедерфутер/icon/INST.png" alt="" width="80" height="80">
+                            <p>INSTA</p>
+                        </article>
+                    </section>
+                </article>
+            </section>
+            <section>
+                <article class="footerInfoTextBox">
+                    <p>Проект был создан Бурлаковым Фёдором в апреле 2024 года.Курировался Владиславом Ильином.</p>
+                    <section class="textBlock">
+                        <p>Ознакомиться с политикой конфиденциальности можно<br> при нажатии кнопки.</p>
+                        <p>Ознакомиться с условиями разных платных подписок и<br> акциях на низ можно в своем профиле.</p>
+                    </section>
+                    <button class="btnWhiteOne" onclick="document.location='../Политика/Politics.html'"> Ознакомится с политика конфиденциальности</button>
+                </article>
+                <p>Копирайт (Copyright) ©</p>
+            </section>
+        </article>
+        <article class="secondFooterContainer">
+            <h5>Для работы над проектом напишите нам</h5>
+            <section>
+                <article class="footerInputBlock">
+                    <input class="footerInputOne" type="text" placeholder="Имя">
+                    <input class="footerInputOne" type="text" placeholder="Фамилия">
+                    <input class="footerInputOne" type="text" placeholder="Отчество">
+                </article>
+                <article class="footerInputBlock">
+                    <input class="footerInputTwo" type="text" placeholder="Электронный адрес">
+                    <input class="footerInputTwo" type="text" placeholder="Номер контактного телефона">
+                </article>
+                <article class="footerInputBlock">
+                    <input class="footerInputThree" type="text" placeholder="Предложите свою идею или сообщите информацию о ошибках на данном проекте">
+                </article>
+                <article class="footerInputBlock">
+                    <button class="btnWhiteTwo">Отправить</button>
+                </article>
+            </section>
+        </article>
+    </footer>
+    <script src="stylePlayer.js"></script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+.btnBlue {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #070C73;
+    border-radius: 10px;
+    box-shadow: 3px 3px #070C73;
+    cursor: pointer;
+}
+
+.btnGreen {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #026873;
+    border-radius: 10px;
+    box-shadow: 3px 3px #026873;
+    cursor: pointer;
+}
+
+.btnDarkGreen {
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #012326;
+    border-radius: 10px;
+    box-shadow: 3px 3px #012326;
+    cursor: pointer;
+}
+
+.vOne {
+    width: 270px;
+    height: 47px;
+}
+
+.vTwo {
+    width: 160px;
+    height: 47px;
+}
+
+.vThree {
+    width: 284px;
+    height: 47px;
+}
+
+.vFour {
+    width: 280px;
+    height: 80px;
+}
+
+.vFive {
+    width: 160px;
+    height: 80px;
+}
+
+.vSix {
+    width: 220px;
+    height: 80px;
+}
+
+.vSeven {
+    width: 220px;
+    height: 47px;
+    border-radius: 20px;
+}
+
+.vEight {
+    width: 222px;
+    height: 41px;
+}
+
+.btnWhiteOne {
+    width: 270px;
+    height: 72px;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.btnWhiteTwo {
+    width: 280px;
+    height: 47px;
+    color: #000;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 20px; 
+}

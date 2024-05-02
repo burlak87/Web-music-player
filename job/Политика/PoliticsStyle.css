@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: Comfortaa, 'Arial Narrow Bold', sans-serif ;
+}
+body {
+    background-color: #383737;
+    color: #fff;
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+#mainArt {
+    margin: 45px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    margin: 15px 0;
+    font-size: 24px;
+}
+ol {
+    margin: 15px;
+}
+li {
+    margin: 10px;
+}
